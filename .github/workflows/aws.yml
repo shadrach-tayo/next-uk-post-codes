@@ -79,5 +79,5 @@ jobs:
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: next-uk-post-codes-ecs-service
-        cluster: nex-uk-post-codes-cluster
+        cluster: next-uk-post-codes-cluster
         wait-for-service-stability: true
