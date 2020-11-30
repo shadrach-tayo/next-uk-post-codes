@@ -8,8 +8,8 @@
             "image": "751808579985.dkr.ecr.us-east-1.amazonaws.com/next-uk-post-codes:latest",
             "portMappings": [
                 {
-                    "containerPort": 8000,
-                    "hostPort": 8000,
+                    "containerPort": 3000,
+                    "hostPort": 3000,
                     "protocol": "tcp"
                 }
             ],
